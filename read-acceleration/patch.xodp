@@ -21,16 +21,6 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "HkKuk4_zw",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 0
-      },
-      "type": "@/input-lis3dhtr-device"
-    },
-    {
       "id": "HkXs14_Gv",
       "label": "Y",
       "position": {
@@ -39,6 +29,16 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "HkjJ7vuMP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
     },
     {
       "id": "rJu3y4ufP",
