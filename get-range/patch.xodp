@@ -1,2 +1,58 @@
 {
+  "description": "Read the g range for the accelerometer.",
+  "nodes": [
+    {
+      "description": "The g range for the accelerometer.",
+      "id": "B1GvjNtMw",
+      "label": "RANGE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-string"
+    },
+    {
+      "description": "Update.",
+      "id": "BJNXs4Ffw",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SJ_s3NKMD",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "rk0V5EYGD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A lis3dh device.",
+      "id": "ryjNjEYzP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/input-lis3dh-device"
+    }
+  ]
 }

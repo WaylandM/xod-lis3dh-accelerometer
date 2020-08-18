@@ -1,6 +1,17 @@
 {
   "nodes": [
     {
+      "description": "Data rate.",
+      "id": "B1R3ZEtzP",
+      "label": "RATE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    },
+    {
       "id": "BJDCYsdGw",
       "position": {
         "units": "slots",
@@ -19,16 +30,6 @@
         "y": 0
       },
       "type": "@/input-lis3dh-device"
-    },
-    {
-      "id": "HJ0PRjuMw",
-      "label": "RATE",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 2
-      },
-      "type": "xod/patch-nodes/output-byte"
     },
     {
       "description": "Update.",

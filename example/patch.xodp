@@ -1,14 +1,14 @@
 {
   "links": [
     {
-      "id": "B1jwiodzP",
+      "id": "B1kChVYMw",
       "input": {
         "nodeId": "ry1vjiuzP",
         "pinKey": "r1yl9j_fv"
       },
       "output": {
-        "nodeId": "BkkRxN_Gw",
-        "pinKey": "HJU8CE2lW"
+        "nodeId": "S1XbdjuMv",
+        "pinKey": "S14E_iOGw"
       }
     },
     {
@@ -20,17 +20,6 @@
       "output": {
         "nodeId": "Bkw0-iuzv",
         "pinKey": "HkqIksdfP"
-      }
-    },
-    {
-      "id": "Bk4Jg2dMP",
-      "input": {
-        "nodeId": "BJmuoidMP",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "ry1vjiuzP",
-        "pinKey": "HJ0PRjuMw"
       }
     },
     {
@@ -89,6 +78,17 @@
       }
     },
     {
+      "id": "S1yJpEYMw",
+      "input": {
+        "nodeId": "Syj02VYMw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJRnnVYfw",
+        "pinKey": "B1GvjNtMw"
+      }
+    },
+    {
       "id": "SJFRWouzv",
       "input": {
         "nodeId": "Bkw0-iuzv",
@@ -133,6 +133,17 @@
       }
     },
     {
+      "id": "SyMRn4tfw",
+      "input": {
+        "nodeId": "rJRnnVYfw",
+        "pinKey": "BJNXs4Ffw"
+      },
+      "output": {
+        "nodeId": "ry1vjiuzP",
+        "pinKey": "rJix9jOfD"
+      }
+    },
+    {
       "id": "r15AbiOGw",
       "input": {
         "nodeId": "Bkw0-iuzv",
@@ -141,6 +152,28 @@
       "output": {
         "nodeId": "BkkRxN_Gw",
         "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "rJbT3EFfD",
+      "input": {
+        "nodeId": "rJRnnVYfw",
+        "pinKey": "ryjNjEYzP"
+      },
+      "output": {
+        "nodeId": "SykW7vOMP",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "rkvRb4tfv",
+      "input": {
+        "nodeId": "BJmuoidMP",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ry1vjiuzP",
+        "pinKey": "B1R3ZEtzP"
       }
     }
   ],
@@ -258,6 +291,20 @@
       "type": "xod/debug/watch"
     },
     {
+      "id": "Syj02VYMw",
+      "position": {
+        "units": "slots",
+        "x": 21,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
       "boundLiterals": {
         "HJUg4Q_zD": "19h"
       },
@@ -282,6 +329,15 @@
         "width": 2
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJRnnVYfw",
+      "position": {
+        "units": "slots",
+        "x": 21,
+        "y": 3
+      },
+      "type": "@/get-range"
     },
     {
       "id": "ry1vjiuzP",
