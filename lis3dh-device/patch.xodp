@@ -1,6 +1,9 @@
 {
   "nodes": [
     {
+      "boundLiterals": {
+        "__out__": "19h"
+      },
       "id": "HJUg4Q_zD",
       "label": "ADDR",
       "position": {

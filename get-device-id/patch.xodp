@@ -1,2 +1,57 @@
 {
+  "nodes": [
+    {
+      "description": "Pulse on read of device ID.",
+      "id": "S14E_iOGw",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Device ID.",
+      "id": "S1YgYidfv",
+      "label": "ID",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "description": "A lis3dh-device.",
+      "id": "r13fvjuMv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    },
+    {
+      "description": "Update.",
+      "id": "rJy4vodGP",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "ryFoXiOfw",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
 }

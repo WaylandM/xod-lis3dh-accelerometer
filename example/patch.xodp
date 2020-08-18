@@ -1,6 +1,116 @@
 {
   "links": [
     {
+      "id": "B1jwiodzP",
+      "input": {
+        "nodeId": "ry1vjiuzP",
+        "pinKey": "r1yl9j_fv"
+      },
+      "output": {
+        "nodeId": "BkkRxN_Gw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "BJaRZidMD",
+      "input": {
+        "nodeId": "Hy31ZE_Gw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "HkqIksdfP"
+      }
+    },
+    {
+      "id": "Bk4Jg2dMP",
+      "input": {
+        "nodeId": "BJmuoidMP",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "ry1vjiuzP",
+        "pinKey": "HJ0PRjuMw"
+      }
+    },
+    {
+      "id": "BkbztsOfP",
+      "input": {
+        "nodeId": "SkyMOiOfv",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "S1XbdjuMv",
+        "pinKey": "S1YgYidfv"
+      }
+    },
+    {
+      "id": "BkkyGodzw",
+      "input": {
+        "nodeId": "S1g31ZNOzv",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "rkg98yiuMP"
+      }
+    },
+    {
+      "id": "ByU-_s_zP",
+      "input": {
+        "nodeId": "S1XbdjuMv",
+        "pinKey": "r13fvjuMv"
+      },
+      "output": {
+        "nodeId": "SykW7vOMP",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "HJ2A-juzD",
+      "input": {
+        "nodeId": "r1wJ-E_Gv",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "Hy8IJj_Gv"
+      }
+    },
+    {
+      "id": "S1IAOsdfP",
+      "input": {
+        "nodeId": "S1XbdjuMv",
+        "pinKey": "rJy4vodGP"
+      },
+      "output": {
+        "nodeId": "BkkRxN_Gw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "SJFRWouzv",
+      "input": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "ryjMyidGv"
+      },
+      "output": {
+        "nodeId": "SykW7vOMP",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "SJSrMjdfP",
+      "input": {
+        "nodeId": "S1blW4_MP",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "SyqKJsuMP"
+      }
+    },
+    {
       "id": "Sk-GZVuMw",
       "input": {
         "nodeId": "Sk3Wb4_GD",
@@ -10,9 +120,45 @@
         "nodeId": "S1blW4_MP",
         "pinKey": "r1yhZRd8W"
       }
+    },
+    {
+      "id": "Sk-vijufD",
+      "input": {
+        "nodeId": "ry1vjiuzP",
+        "pinKey": "BkTAYsufD"
+      },
+      "output": {
+        "nodeId": "SykW7vOMP",
+        "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "r15AbiOGw",
+      "input": {
+        "nodeId": "Bkw0-iuzv",
+        "pinKey": "HyYxyjuMP"
+      },
+      "output": {
+        "nodeId": "BkkRxN_Gw",
+        "pinKey": "HJU8CE2lW"
+      }
     }
   ],
   "nodes": [
+    {
+      "id": "BJmuoidMP",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 4
+      },
+      "type": "xod/debug/watch"
+    },
     {
       "boundLiterals": {
         "B13SCNhl-": "0.1"
@@ -24,6 +170,15 @@
         "y": 2
       },
       "type": "xod/core/clock"
+    },
+    {
+      "id": "Bkw0-iuzv",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/read"
     },
     {
       "id": "Hy31ZE_Gw",
@@ -38,6 +193,18 @@
         "width": 2
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "rJy4vodGP": "On Boot"
+      },
+      "id": "S1XbdjuMv",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 3
+      },
+      "type": "@/get-device-id"
     },
     {
       "id": "S1blW4_MP",
@@ -77,6 +244,23 @@
       "type": "xod/debug/watch"
     },
     {
+      "id": "SkyMOiOfv",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "HJUg4Q_zD": "19h"
+      },
       "id": "SykW7vOMP",
       "position": {
         "units": "slots",
@@ -98,6 +282,15 @@
         "width": 2
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "id": "ry1vjiuzP",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 3
+      },
+      "type": "@/get-data-rate"
     }
   ]
 }

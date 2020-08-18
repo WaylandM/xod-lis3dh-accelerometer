@@ -1,2 +1,80 @@
 {
+  "description": "Read X, Y and Z raw values.",
+  "nodes": [
+    {
+      "description": "Raw Y value.",
+      "id": "HkqIksdfP",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Raw X value.",
+      "id": "Hy8IJj_Gv",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Update. Trigger a reading.",
+      "id": "HyYxyjuMP",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SyqKJsuMP",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Raw Z value.",
+      "id": "rkg98yiuMP",
+      "label": "Z",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "ry4xkj_zD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A lis3dh-device.",
+      "id": "ryjMyidGv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    }
+  ]
 }
