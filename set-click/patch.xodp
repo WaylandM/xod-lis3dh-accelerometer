@@ -1,2 +1,116 @@
 {
+  "description": "Configure parameters for \"click\" (tap) detection. See datasheet for explanation of parameters: http://www.st.com/resource/en/application_note/cd00290365.pdf",
+  "nodes": [
+    {
+      "description": "Update.",
+      "id": "HJ25WKYfD",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "20d"
+      },
+      "description": "Time latency.",
+      "id": "HJPfMKFzP",
+      "label": "T-LATENCY",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "255d"
+      },
+      "description": "Time window.",
+      "id": "Hyt4MYtMv",
+      "label": "T-WINDOW",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "SJeO-tFzD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SkjYZYFGv",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "2d"
+      },
+      "id": "Skl_fYKzP",
+      "label": "MODE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "80d"
+      },
+      "description": "Adjust this number for the sensitivity of the 'click' force. This strongly depends on the range! For 16G, try 5-10; for 8G, try 10-20; for 4G, try 20-40; for 2G, try 40-80.",
+      "id": "rJBp-KFfv",
+      "label": "THRESHOLD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "A lis3dh device.",
+      "id": "ryYOZFYfD",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "10d"
+      },
+      "description": "Time limit. ",
+      "id": "ryyxzFtfv",
+      "label": "T-LIMIT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
 }

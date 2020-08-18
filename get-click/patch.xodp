@@ -1,2 +1,69 @@
 {
+  "description": "Detect single or double \"click\" (tap).",
+  "nodes": [
+    {
+      "description": "Pulse after checking for click (tap).",
+      "id": "B1Oil_Kfv",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Pulse if double \"click\" (tap) detected.",
+      "id": "ByD_gOFMP",
+      "label": "DBL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByqoyOFfw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A lis3dh device.",
+      "id": "S123yOYMw",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    },
+    {
+      "description": "Update",
+      "id": "SyZ31_YGv",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse if single \"click\" (tap) detected.",
+      "id": "r1nHxuKzw",
+      "label": "SNG",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

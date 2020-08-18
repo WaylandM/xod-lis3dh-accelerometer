@@ -1,2 +1,50 @@
 {
+  "description": "Set data rate.",
+  "nodes": [
+    {
+      "description": "Pulse on completion.",
+      "id": "BkLB3KKzv",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "H17V3KtMw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Update.",
+      "id": "HkqN3tYzP",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "07h"
+      },
+      "description": "Data rate. Options: 01h = 1 Hz, 02h = 10 Hz, 03h = 25 Hz, 04h = 50 Hz, 05h= 100 Hz, 06h = 200 Hz, 07h = 400 Hz (default), 00h = powered down, 08h = 1.6 kHz (low power), 09h = 5 kHz (low power).",
+      "id": "SktnAtKzP",
+      "label": "RATE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
 }
