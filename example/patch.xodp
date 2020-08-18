@@ -1,28 +1,6 @@
 {
   "links": [
     {
-      "id": "B1ZZ7P_zw",
-      "input": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "HkjJ7vuMP"
-      },
-      "output": {
-        "nodeId": "SykW7vOMP",
-        "pinKey": "HkIVcXdfP"
-      }
-    },
-    {
-      "id": "BJXbWV_fv",
-      "input": {
-        "nodeId": "Hy31ZE_Gw",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "HkXs14_Gv"
-      }
-    },
-    {
       "id": "Sk-GZVuMw",
       "input": {
         "nodeId": "Sk3Wb4_GD",
@@ -31,50 +9,6 @@
       "output": {
         "nodeId": "S1blW4_MP",
         "pinKey": "r1yhZRd8W"
-      }
-    },
-    {
-      "id": "Skw-bEdGD",
-      "input": {
-        "nodeId": "S1blW4_MP",
-        "pinKey": "HJAq-A_8-"
-      },
-      "output": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "rJu3y4ufP"
-      }
-    },
-    {
-      "id": "SyGWWNOfw",
-      "input": {
-        "nodeId": "S1g31ZNOzv",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "ryems1VuGD"
-      }
-    },
-    {
-      "id": "rJVbbV_fP",
-      "input": {
-        "nodeId": "r1wJ-E_Gv",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "ByCqJN_GP"
-      }
-    },
-    {
-      "id": "rkGCg4uGD",
-      "input": {
-        "nodeId": "SJFpx4Ofw",
-        "pinKey": "ByhKyVOGD"
-      },
-      "output": {
-        "nodeId": "BkkRxN_Gw",
-        "pinKey": "HJU8CE2lW"
       }
     }
   ],
@@ -127,15 +61,6 @@
         "width": 2
       },
       "type": "xod/debug/watch"
-    },
-    {
-      "id": "SJFpx4Ofw",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 3
-      },
-      "type": "@/read-acceleration"
     },
     {
       "id": "Sk3Wb4_GD",

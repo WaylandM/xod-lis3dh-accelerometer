@@ -1,19 +1,22 @@
 // Tell XOD where it could download the library:
-#pragma XOD require "https://github.com/Seeed-Studio/Seeed_Arduino_LIS3DHTR"
+#pragma XOD require "https://github.com/adafruit/Adafruit_Sensor"
+#pragma XOD require "https://github.com/adafruit/Adafruit_LIS3DH"
+#pragma XOD require "https://github.com/adafruit/Adafruit_BusIO"
 
 //Include C++ libraries
 {{#global}}
+#include <SPI.h>
 #include <Wire.h>
-#include <LIS3DHTR.h>
-#define WIRE Wire
+#include <Adafruit_Sensor.h>
+#include <Adafruit_LIS3DH.h>
 {{/global}}
 
 struct State {
-    uint8_t mem[sizeof(LIS3DHTR<TwoWire>)];
+    uint8_t mem[sizeof(Adafruit_LIS3DH)];
 };
 
 // Define our custom type as a pointer on the class instance.
-using Type = LIS3DHTR<TwoWire>*;
+using Type = Adafruit_LIS3DH*;
 
 {{ GENERATED_CODE }}
 
@@ -26,18 +29,12 @@ void evaluate(Context ctx) {
     auto address = getValue<input_ADDR>(ctx);
 
     // Create a new object in the memory area reserved previously.
-    Type sensor = new (state->mem) LIS3DHTR<TwoWire>();
-    
-    sensor->begin(WIRE, address);
-    delay(100);
+    Type sensor = new (state->mem) Adafruit_LIS3DH();
 
-    if (!sensor) {
+    if (!sensor->begin(address)) {
       raiseError(ctx);
       return;
     }
-    
-    sensor->setOutputDataRate(LIS3DHTR_DATARATE_50HZ);
-    
 
     emitValue<output_DEV>(ctx, sensor);
 }
