@@ -27,10 +27,21 @@
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "A lis3dh device.",
+      "id": "S1ikWX2zv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
     },
     {
       "boundLiterals": {
@@ -41,7 +52,7 @@
       "label": "RATE",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"

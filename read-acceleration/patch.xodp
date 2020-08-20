@@ -1,2 +1,79 @@
 {
+  "nodes": [
+    {
+      "id": "ByNFMM7nMw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Raw X value.",
+      "id": "ByeYzMQnzw",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Update. Trigger a reading.",
+      "id": "HyWYfzXhGv",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Raw Y value.",
+      "id": "S1KzGX3MP",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SkGtGMm2zD",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Raw Z value.",
+      "id": "rJmFzfXnfw",
+      "label": "Z",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "A lis3dh-device.",
+      "id": "ryrYfzX2zw",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    }
+  ]
 }
