@@ -1,9 +1,11 @@
 {
+  "description": "Create a lis3dh device.",
   "nodes": [
     {
       "boundLiterals": {
         "__out__": "19h"
       },
+      "description": "I²C address of lis3dh device.",
       "id": "HJUg4Q_zD",
       "label": "ADDR",
       "position": {
@@ -14,6 +16,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "A lis3dh device.",
       "id": "HkIVcXdfP",
       "label": "DEV",
       "position": {

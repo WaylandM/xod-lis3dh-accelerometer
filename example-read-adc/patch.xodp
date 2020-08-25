@@ -1,0 +1,114 @@
+{
+  "description": "Patch to test read-adc node.",
+  "links": [
+    {
+      "id": "H1ebfTf7P",
+      "input": {
+        "nodeId": "ryjA-azmw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJbCWazXw",
+        "pinKey": "r1eXTMYG7P"
+      }
+    },
+    {
+      "id": "HyzZMafXP",
+      "input": {
+        "nodeId": "H1kkG6MXP",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJbCWazXw",
+        "pinKey": "ryfQaMtf7w"
+      }
+    },
+    {
+      "id": "SkmWMTGXD",
+      "input": {
+        "nodeId": "B1e1yMTM7P",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJbCWazXw",
+        "pinKey": "B14X6zYGQD"
+      }
+    },
+    {
+      "id": "ryr0bTMXw",
+      "input": {
+        "nodeId": "HJbCWazXw",
+        "pinKey": "BJB7afKGXP"
+      },
+      "output": {
+        "nodeId": "HJvpWpfQP",
+        "pinKey": "HkIVcXdfP"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1e1yMTM7P",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1kkG6MXP",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "SkbmpMKzXv": "Continuously"
+      },
+      "id": "HJbCWazXw",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/read-adc"
+    },
+    {
+      "id": "HJvpWpfQP",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "@/lis3dh-device"
+    },
+    {
+      "id": "ryjA-azmw",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

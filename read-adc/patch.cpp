@@ -15,17 +15,17 @@ void evaluate(Context ctx) {
     int16_t adc;
     uint16_t volt;
 
-    adc = lis.readADC(1);
+    adc = sensor->readADC(1);
     volt = map(adc, -32512, 32512, 1800, 900);
-    emitValue<output_X>(ctx, volt);
+    emitValue<output_ADC1>(ctx, volt);
 
-    adc = lis.readADC(2);
+    adc = sensor->readADC(2);
     volt = map(adc, -32512, 32512, 1800, 900);
-    emitValue<output_Y>(ctx, volt);
+    emitValue<output_ADC2>(ctx, volt);
 
-    adc = lis.readADC(3);
+    adc = sensor->readADC(3);
     volt = map(adc, -32512, 32512, 1800, 900);
-    emitValue<output_Z>(ctx, volt);
+    emitValue<output_ADC3>(ctx, volt);
 
     emitValue<output_DONE>(ctx, 1);
 }

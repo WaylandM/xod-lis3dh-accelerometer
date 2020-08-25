@@ -22,6 +22,9 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
       "description": "Update. Trigger a reading.",
       "id": "HyWYfzXhGv",
       "label": "UPD",
