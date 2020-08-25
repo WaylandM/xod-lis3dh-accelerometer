@@ -64,6 +64,7 @@
       "boundLiterals": {
         "__out__": "2d"
       },
+      "description": "Mode. Options: 0 = turn off click detection & interrupt; 1 = single click only interrupt output;  2 = double click only interrupt output, detect single click.",
       "id": "Skl_fYKzP",
       "label": "MODE",
       "position": {
@@ -75,7 +76,7 @@
     },
     {
       "boundLiterals": {
-        "__out__": "80d"
+        "__out__": "60d"
       },
       "description": "Adjust this number for the sensitivity of the 'click' force. This strongly depends on the range! For 16G, try 5-10; for 8G, try 10-20; for 4G, try 20-40; for 2G, try 40-80.",
       "id": "rJBp-KFfv",

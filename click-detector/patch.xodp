@@ -67,17 +67,6 @@
       }
     },
     {
-      "id": "HksMPpfQP",
-      "input": {
-        "nodeId": "S17oxS6zmv",
-        "pinKey": "Skl_fYKzP"
-      },
-      "output": {
-        "nodeId": "ByIw8Tz7v",
-        "pinKey": "__out__"
-      }
-    },
-    {
       "id": "Hy3BPaMmv",
       "input": {
         "nodeId": "ryMVDpzQv",
@@ -190,6 +179,9 @@
   ],
   "nodes": [
     {
+      "boundLiterals": {
+        "__out__": "FFh"
+      },
       "description": "Time limit.",
       "id": "B16PUpzQw",
       "label": "T-LIMIT",
@@ -213,16 +205,6 @@
       "type": "@/get-click"
     },
     {
-      "id": "ByIw8Tz7v",
-      "label": "MODE",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-byte"
-    },
-    {
       "boundLiterals": {
         "Skre8ROSv1-": "0.1"
       },
@@ -244,6 +226,9 @@
       "type": "xod/core/wait-all"
     },
     {
+      "boundLiterals": {
+        "__out__": "20d"
+      },
       "description": "Time latency.",
       "id": "HJlTvUpfQw",
       "label": "T-LATENCY",
@@ -276,6 +261,9 @@
       "type": "@/lis3dh-device"
     },
     {
+      "boundLiterals": {
+        "__out__": "60d"
+      },
       "description": "Adjust this number for the sensitivity of the 'click' force. This strongly depends on the range! For 16G, try 5-10; for 8G, try 10-20; for 4G, try 20-40; for 2G, try 40-80.",
       "id": "SknvI6G7v",
       "label": "THRESHOLD",
@@ -287,6 +275,9 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "boundLiterals": {
+        "__out__": "255d"
+      },
       "description": "Time window.",
       "id": "r1CDUpMQv",
       "label": "T-WINDOW",
@@ -340,7 +331,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Is the click-detector enabled?",
+      "description": "Enable the click-detector.",
       "id": "rkbBUTG7v",
       "label": "EN",
       "position": {
