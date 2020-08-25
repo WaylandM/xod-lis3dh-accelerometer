@@ -1,4 +1,5 @@
 {
+  "description": "Get data rate.",
   "nodes": [
     {
       "description": "Data rate.",

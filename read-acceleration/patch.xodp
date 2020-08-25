@@ -1,4 +1,5 @@
 {
+  "description": "Read acceleration (metre per second squared)  in all three axes.",
   "nodes": [
     {
       "id": "ByNFMM7nMw",
@@ -10,7 +11,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Raw X value.",
+      "description": "Acceleration (metre per second squared) in x-axis.",
       "id": "ByeYzMQnzw",
       "label": "X",
       "position": {
@@ -32,7 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Raw Y value.",
+      "description": "Acceleration (metre per second squared) in y-axis.",
       "id": "S1KzGX3MP",
       "label": "Y",
       "position": {
@@ -54,7 +55,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Raw Z value.",
+      "description": "Acceleration (metre per second squared) in z-axis.",
       "id": "rJmFzfXnfw",
       "label": "Z",
       "position": {

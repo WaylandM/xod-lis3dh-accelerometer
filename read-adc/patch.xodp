@@ -1,2 +1,80 @@
 {
+  "description": "Read the auxiliary analog-to-digital converter.",
+  "nodes": [
+    {
+      "description": "Reading from ADC3 (mV).",
+      "id": "B14X6zYGQD",
+      "label": "ADC3",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "A lis3dh-device.",
+      "id": "BJB7afKGXP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-lis3dh-device"
+    },
+    {
+      "description": "Pulse on read.",
+      "id": "SkQQpfKM7D",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update. Trigger a reading.",
+      "id": "SkbmpMKzXv",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "r1Q6GKfXP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Reading from ADC1 (mV).",
+      "id": "r1eXTMYG7P",
+      "label": "ADC1",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Reading from ADC2 (mV).",
+      "id": "ryfQaMtf7w",
+      "label": "ADC2",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
 }
