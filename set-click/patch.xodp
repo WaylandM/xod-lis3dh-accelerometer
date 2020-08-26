@@ -16,7 +16,7 @@
       "boundLiterals": {
         "__out__": "20d"
       },
-      "description": "Time latency.",
+      "description": "Time latency (default = 20).  To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 20 is equivalent to a latency of 50 ms.",
       "id": "HJPfMKFzP",
       "label": "T-LATENCY",
       "position": {
@@ -30,7 +30,7 @@
       "boundLiterals": {
         "__out__": "255d"
       },
-      "description": "Time window.",
+      "description": "Time window (default = 255).  To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 255 is equivalent to a time window of 637.5 ms.",
       "id": "Hyt4MYtMv",
       "label": "T-WINDOW",
       "position": {
@@ -103,7 +103,7 @@
       "boundLiterals": {
         "__out__": "10d"
       },
-      "description": "Time limit. ",
+      "description": "Time limit (default = 10). To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 10 is equivalent to a time limit of 25 ms.",
       "id": "ryyxzFtfv",
       "label": "T-LIMIT",
       "position": {

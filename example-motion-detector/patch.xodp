@@ -1,0 +1,130 @@
+{
+  "links": [
+    {
+      "id": "H1uQwMNmP",
+      "input": {
+        "nodeId": "SyyfPMV7D",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "Hy9rRZ4QP",
+        "pinKey": "ryMVDpzQv"
+      }
+    },
+    {
+      "id": "HyUNOzEmw",
+      "input": {
+        "nodeId": "HJxxPzNQD",
+        "pinKey": "HyYh1a3LZ"
+      },
+      "output": {
+        "nodeId": "SkVQ_fNXP",
+        "pinKey": "S13xLCuHvkW"
+      }
+    },
+    {
+      "id": "HywVuGN7D",
+      "input": {
+        "nodeId": "SkVQ_fNXP",
+        "pinKey": "S1yZIA_rDJZ"
+      },
+      "output": {
+        "nodeId": "SyyfPMV7D",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "rJO2RWEmv",
+      "input": {
+        "nodeId": "B1CjCbVmw",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hk_URZ4Xw",
+        "pinKey": "BJ--G1tI-"
+      }
+    },
+    {
+      "id": "ryl8PfE7v",
+      "input": {
+        "nodeId": "SyyfPMV7D",
+        "pinKey": "B1RU0OrDkb"
+      },
+      "output": {
+        "nodeId": "B1CjCbVmw",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1CjCbVmw",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/core/pulse-on-true"
+    },
+    {
+      "boundLiterals": {
+        "B1oqkTnIb": "D4",
+        "HyYh1a3LZ": "1"
+      },
+      "id": "HJxxPzNQD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/common-hardware/led"
+    },
+    {
+      "boundLiterals": {
+        "ByNiWkt8Z": "D6"
+      },
+      "id": "Hk_URZ4Xw",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/common-hardware/button"
+    },
+    {
+      "boundLiterals": {
+        "B16PUpzQw": "10d",
+        "SknvI6G7v": "40d"
+      },
+      "id": "Hy9rRZ4QP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/click-detector"
+    },
+    {
+      "boundLiterals": {
+        "r1AgIROHDJW": "0",
+        "ryTeUROHD1b": "1"
+      },
+      "id": "SkVQ_fNXP",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/core/if-else"
+    },
+    {
+      "id": "SyyfPMV7D",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/core/flip-flop"
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
   "links": [
     {
+      "id": "B1AM8BNQw",
+      "input": {
+        "nodeId": "HJ4jxBazmv",
+        "pinKey": "ByFqg5eXr"
+      },
+      "output": {
+        "nodeId": "HJm_SHEQw",
+        "pinKey": "BkLB3KKzv"
+      }
+    },
+    {
       "id": "BJ2oxrTG7P",
       "input": {
         "nodeId": "BkSixraGQv",
@@ -9,6 +20,17 @@
       "output": {
         "nodeId": "S1filBafXD",
         "pinKey": "HkIVcXdfP"
+      }
+    },
+    {
+      "id": "By3pUSEQP",
+      "input": {
+        "nodeId": "HJm_SHEQw",
+        "pinKey": "SktnAtKzP"
+      },
+      "output": {
+        "nodeId": "HJm2IHVmw",
+        "pinKey": "__out__"
       }
     },
     {
@@ -56,14 +78,25 @@
       }
     },
     {
-      "id": "HJssxSaMQv",
+      "id": "HJJnrBVQP",
       "input": {
-        "nodeId": "S17oxS6zmv",
-        "pinKey": "ryYOZFYfD"
+        "nodeId": "HJm_SHEQw",
+        "pinKey": "S1ikWX2zv"
       },
       "output": {
-        "nodeId": "S1filBafXD",
-        "pinKey": "HkIVcXdfP"
+        "nodeId": "Hkt5rrVQD",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkDJvSVXv",
+      "input": {
+        "nodeId": "HyvB8HNQD",
+        "pinKey": "Hkv_uf3fw"
+      },
+      "output": {
+        "nodeId": "Syt0LB47D",
+        "pinKey": "__out__"
       }
     },
     {
@@ -75,6 +108,17 @@
       "output": {
         "nodeId": "BkSixraGQv",
         "pinKey": "r1nHxuKzw"
+      }
+    },
+    {
+      "id": "HyIcSS4Qv",
+      "input": {
+        "nodeId": "Hk9YrrEXv",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1filBafXD",
+        "pinKey": "HkIVcXdfP"
       }
     },
     {
@@ -111,6 +155,17 @@
       }
     },
     {
+      "id": "SkiuLH4Qv",
+      "input": {
+        "nodeId": "HyvB8HNQD",
+        "pinKey": "S1gUQfhfD"
+      },
+      "output": {
+        "nodeId": "S17oxS6zmv",
+        "pinKey": "SkjYZYFGv"
+      }
+    },
+    {
       "id": "SkkG8TfQv",
       "input": {
         "nodeId": "S1filBafXD",
@@ -118,6 +173,28 @@
       },
       "output": {
         "nodeId": "rJAISaMXw",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyP3HS47D",
+      "input": {
+        "nodeId": "S17oxS6zmv",
+        "pinKey": "ryYOZFYfD"
+      },
+      "output": {
+        "nodeId": "SJM3SH4Qw",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SyS_IHV7P",
+      "input": {
+        "nodeId": "HyvB8HNQD",
+        "pinKey": "B1dMbX2MP"
+      },
+      "output": {
+        "nodeId": "Bk5iHrNmD",
         "pinKey": "__out__"
       }
     },
@@ -133,14 +210,14 @@
       }
     },
     {
-      "id": "rkFolHpMXv",
+      "id": "rJ6_UHVXv",
       "input": {
-        "nodeId": "HJ4jxBazmv",
-        "pinKey": "ByFqg5eXr"
+        "nodeId": "HJm_SHEQw",
+        "pinKey": "HkqN3tYzP"
       },
       "output": {
-        "nodeId": "S17oxS6zmv",
-        "pinKey": "SkjYZYFGv"
+        "nodeId": "HyvB8HNQD",
+        "pinKey": "rk6KOG2zD"
       }
     },
     {
@@ -180,17 +257,27 @@
   "nodes": [
     {
       "boundLiterals": {
-        "__out__": "FFh"
+        "__out__": "10d"
       },
       "description": "Time limit.",
       "id": "B16PUpzQw",
       "label": "T-LIMIT",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 11,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "Bk5iHrNmD",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
     },
     {
       "boundLiterals": {
@@ -200,7 +287,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 4
+        "y": 6
       },
       "type": "@/get-click"
     },
@@ -211,7 +298,7 @@
       "id": "ByZierpMQw",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 14,
         "y": 1
       },
       "type": "xod/core/delay"
@@ -221,7 +308,7 @@
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 3
+        "y": 5
       },
       "type": "xod/core/wait-all"
     },
@@ -234,10 +321,61 @@
       "label": "T-LATENCY",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 12,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "07h"
+      },
+      "id": "HJm2IHVmw",
+      "label": "RATE",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "HJm_SHEQw",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "@/set-data-rate"
+    },
+    {
+      "id": "Hk9YrrEXv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "Hkt5rrVQD",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HyvB8HNQD",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "@/set-range"
     },
     {
       "boundLiterals": {
@@ -246,7 +384,7 @@
       "id": "S17oxS6zmv",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 8,
         "y": 2
       },
       "type": "@/set-click"
@@ -261,6 +399,16 @@
       "type": "@/lis3dh-device"
     },
     {
+      "id": "SJM3SH4Qw",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
       "boundLiterals": {
         "__out__": "60d"
       },
@@ -269,7 +417,17 @@
       "label": "THRESHOLD",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 10,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "Syt0LB47D",
+      "label": "RANGE",
+      "position": {
+        "units": "slots",
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -283,7 +441,7 @@
       "label": "T-WINDOW",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 13,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -295,7 +453,7 @@
       "position": {
         "units": "slots",
         "x": 2,
-        "y": 5
+        "y": 7
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -303,12 +461,15 @@
       "id": "r1ierpz7v",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 15,
         "y": 0
       },
       "type": "xod/core/boot"
     },
     {
+      "boundLiterals": {
+        "__out__": "19h"
+      },
       "description": "I²C address of lis3dh device.",
       "id": "rJAISaMXw",
       "label": "ADDR",
@@ -326,11 +487,14 @@
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 5
+        "y": 7
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "Enable the click-detector.",
       "id": "rkbBUTG7v",
       "label": "EN",
@@ -360,7 +524,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 5
+        "y": 7
       },
       "type": "xod/patch-nodes/output-pulse"
     }
