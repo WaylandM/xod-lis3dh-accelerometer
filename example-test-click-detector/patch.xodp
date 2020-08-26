@@ -1,0 +1,151 @@
+{
+  "description": "Test of click-detector. Run in debugger.",
+  "links": [
+    {
+      "id": "S1_y7PE7v",
+      "input": {
+        "nodeId": "BJfy7DEQv",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "By26GDNQw",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "SJMCMD4Xw",
+      "input": {
+        "nodeId": "By26GDNQw",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "S1QTfwN7D",
+        "pinKey": "rJCSPTMXw"
+      }
+    },
+    {
+      "id": "SJQ0zPVQP",
+      "input": {
+        "nodeId": "BylhTfPE7w",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "S1QTfwN7D",
+        "pinKey": "r1eUPTzmv"
+      }
+    },
+    {
+      "id": "SJlAGwEQP",
+      "input": {
+        "nodeId": "Bkvpfv4QP",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "S1QTfwN7D",
+        "pinKey": "ryMVDpzQv"
+      }
+    },
+    {
+      "id": "SyvJXDNXP",
+      "input": {
+        "nodeId": "ryOAMwV7w",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Bkvpfv4QP",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rJ91mwE7D",
+      "input": {
+        "nodeId": "HJezk7DNmw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BylhTfPE7w",
+        "pinKey": "r1yhZRd8W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJfy7DEQv",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "Bkvpfv4QP",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "By26GDNQw",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "BylhTfPE7w",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "HJezk7DNmw",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1QTfwN7D",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "@/click-detector"
+    },
+    {
+      "id": "ryOAMwV7w",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

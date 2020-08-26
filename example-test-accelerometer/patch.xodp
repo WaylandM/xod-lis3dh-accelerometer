@@ -1,0 +1,91 @@
+{
+  "description": "Test of accelerometer. Run in debugger.",
+  "links": [
+    {
+      "id": "HJ8dMwN7P",
+      "input": {
+        "nodeId": "rJGvfDN7D",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkH8MvNXw",
+        "pinKey": "HkZ6gPEXD"
+      }
+    },
+    {
+      "id": "Hku_fDVmv",
+      "input": {
+        "nodeId": "BJsDGvEmP",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkH8MvNXw",
+        "pinKey": "HkAplwVmP"
+      }
+    },
+    {
+      "id": "SyK_MwE7D",
+      "input": {
+        "nodeId": "BJnvMvVQw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkH8MvNXw",
+        "pinKey": "ByMR6eDEQD"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJnvMvVQw",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "BJsDGvEmP",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJGvfDN7D",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rkH8MvNXw",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/accelerometer"
+    }
+  ]
+}

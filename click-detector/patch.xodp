@@ -1,4 +1,5 @@
 {
+  "description": "Combines low level nodes to create a simple to use click-detector. Detects single or double taps of the sensor. ",
   "links": [
     {
       "id": "B1AM8BNQw",
@@ -259,7 +260,7 @@
       "boundLiterals": {
         "__out__": "10d"
       },
-      "description": "Time limit.",
+      "description": "Time limit (default = 10). To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 10 is equivalent to a time limit of 25 ms.",
       "id": "B16PUpzQw",
       "label": "T-LIMIT",
       "position": {
@@ -316,7 +317,7 @@
       "boundLiterals": {
         "__out__": "20d"
       },
-      "description": "Time latency.",
+      "description": "Time latency (default = 20).  To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 20 is equivalent to a latency of 50 ms.",
       "id": "HJlTvUpfQw",
       "label": "T-LATENCY",
       "position": {
@@ -330,6 +331,7 @@
       "boundLiterals": {
         "__out__": "07h"
       },
+      "description": "Data rate. Options: 01h = 1 Hz, 02h = 10 Hz, 03h = 25 Hz, 04h = 50 Hz, 05h= 100 Hz, 06h = 200 Hz, 07h = 400 Hz (default), 00h = powered down, 08h = 1.6 kHz (low power), 09h = 5 kHz (low power).",
       "id": "HJm2IHVmw",
       "label": "RATE",
       "position": {
@@ -353,7 +355,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": -1,
+        "x": 1,
         "y": 2
       },
       "type": "xod/patch-nodes/to-bus"
@@ -423,6 +425,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "Range. Options:  00h = +/- 2g (default), 01h = +/- 4g, 02h = +/- 8g, 03h = +/- 16g.",
       "id": "Syt0LB47D",
       "label": "RANGE",
       "position": {
@@ -436,7 +439,7 @@
       "boundLiterals": {
         "__out__": "255d"
       },
-      "description": "Time window.",
+      "description": "Time window (default = 255).  To convert to seconds divide by data rate. For example, if the data rate is 400Hz, then the default value of 255 is equivalent to a time window of 637.5 ms.",
       "id": "r1CDUpMQv",
       "label": "T-WINDOW",
       "position": {
