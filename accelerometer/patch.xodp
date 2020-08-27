@@ -2,6 +2,17 @@
   "description": "Combines lower level nodes to create a simple to use accelerometer.",
   "links": [
     {
+      "id": "BJd2HGB7P",
+      "input": {
+        "nodeId": "rkeebPlvNmP",
+        "pinKey": "S1gUQfhfD"
+      },
+      "output": {
+        "nodeId": "rJgWDlwEQv",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
       "id": "BJl9gP4QP",
       "input": {
         "nodeId": "Sy5YlP4Xv",
@@ -24,6 +35,17 @@
       }
     },
     {
+      "id": "By2r8fB7v",
+      "input": {
+        "nodeId": "HybWPxvNXP",
+        "pinKey": "HkFFgqx7B"
+      },
+      "output": {
+        "nodeId": "S1yGUzSQD",
+        "pinKey": "C0nt1n10Wl"
+      }
+    },
+    {
       "id": "BydeWPgwVXw",
       "input": {
         "nodeId": "ByEbDevV7v",
@@ -31,17 +53,6 @@
       },
       "output": {
         "nodeId": "HydWDgw47v",
-        "pinKey": "__out__"
-      }
-    },
-    {
-      "id": "H1BlbPlv4Qw",
-      "input": {
-        "nodeId": "Hk9ZDeP4QD",
-        "pinKey": "r1jzp_DTZ"
-      },
-      "output": {
-        "nodeId": "rytbvxD47v",
         "pinKey": "__out__"
       }
     },
@@ -145,17 +156,6 @@
       }
     },
     {
-      "id": "r1XlZDlDE7w",
-      "input": {
-        "nodeId": "HybWPxvNXP",
-        "pinKey": "HkFFgqx7B"
-      },
-      "output": {
-        "nodeId": "Hk9ZDeP4QD",
-        "pinKey": "HJU8CE2lW"
-      }
-    },
-    {
       "id": "rJsJ-D4Xw",
       "input": {
         "nodeId": "HkZ6gPEXD",
@@ -184,7 +184,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
@@ -193,7 +193,7 @@
       "id": "B1sZPlD4Xw",
       "position": {
         "units": "slots",
-        "x": 5,
+        "x": 4,
         "y": 3
       },
       "type": "@/set-data-rate"
@@ -223,7 +223,7 @@
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 1
       },
       "type": "xod/patch-nodes/from-bus"
@@ -242,22 +242,10 @@
       "id": "HJvZDlPVXw",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 9,
         "y": 0
       },
       "type": "xod/core/boot"
-    },
-    {
-      "boundLiterals": {
-        "B13SCNhl-": "0.1"
-      },
-      "id": "Hk9ZDeP4QD",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 1
-      },
-      "type": "xod/core/clock"
     },
     {
       "description": "Acceleration (metre per second squared) in y-axis.",
@@ -305,6 +293,15 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "id": "S1yGUzSQD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/core/continuously"
+    },
+    {
       "id": "Sy5YlP4Xv",
       "position": {
         "units": "slots",
@@ -320,7 +317,7 @@
       "id": "rJgWDlwEQv",
       "position": {
         "units": "slots",
-        "x": 9,
+        "x": 8,
         "y": 1
       },
       "type": "xod/core/delay"
@@ -331,7 +328,7 @@
       "label": "RANGE",
       "position": {
         "units": "slots",
-        "x": 8,
+        "x": 7,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -345,7 +342,7 @@
       "label": "RATE",
       "position": {
         "units": "slots",
-        "x": 6,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -354,24 +351,10 @@
       "id": "rkeebPlvNmP",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 2
       },
       "type": "@/set-range"
-    },
-    {
-      "boundLiterals": {
-        "__out__": "True"
-      },
-      "description": "Enable the click-detector.",
-      "id": "rytbvxD47v",
-      "label": "EN",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-boolean"
     }
   ]
 }

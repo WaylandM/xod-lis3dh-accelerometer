@@ -1,5 +1,5 @@
 {
-  "description": "Patch to test read-adc node.",
+  "description": "Patch to test read-adc node. Run in debugger.",
   "links": [
     {
       "id": "H1ebfTf7P",

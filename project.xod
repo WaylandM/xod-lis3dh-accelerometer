@@ -1,3 +1,6 @@
 {
-  "name": "lis3dh-accelerometer"
+  "description": "LIS3DH triaxial accelerometer. Wraps https://github.com/adafruit/Adafruit_LIS3DH. Datasheet: http://www.st.com/resource/en/application_note/cd00290365.pdf. This library was tested on a LIS3DHTR.",
+  "license": "BSD",
+  "name": "lis3dh-accelerometer",
+  "version": "0.0.1"
 }

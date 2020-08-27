@@ -1,5 +1,5 @@
 {
-  "description": "Patch to test read-raw node.",
+  "description": "Patch to test read-raw node. Run in debugger.",
   "links": [
     {
       "id": "By9iXTGQP",

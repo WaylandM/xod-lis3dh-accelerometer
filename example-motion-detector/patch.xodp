@@ -1,5 +1,5 @@
 {
-  "description": "Demonstrates how lis3dh can be used as a motion sensor.",
+  "description": "Demonstrates how lis3dh can be used as a motion sensor. LED is illuminated if motion is detected. Push button resets motion detector.",
   "links": [
     {
       "id": "H1uQwMNmP",
