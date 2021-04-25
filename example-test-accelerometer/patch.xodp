@@ -79,6 +79,9 @@
       "type": "xod/debug/watch"
     },
     {
+      "boundLiterals": {
+        "HydWDgw47v": "19h"
+      },
       "id": "rkH8MvNXw",
       "position": {
         "units": "slots",

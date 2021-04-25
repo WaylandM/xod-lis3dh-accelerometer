@@ -12,7 +12,7 @@ void evaluate(Context ctx) {
     // Get a pointer to the `Adafruit_LIS3DH` class instance
     auto sensor = getValue<input_DEV>(ctx);
 
-    sensor->setRange(getValue<input_RANGE>(ctx));
+    sensor->setRange((lis3dh_range_t)getValue<input_RANGE>(ctx));
 
     emitValue<output_DONE>(ctx, 1);
 }
