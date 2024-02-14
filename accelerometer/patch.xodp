@@ -176,6 +176,17 @@
         "nodeId": "rk-xWvxP47P",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "BkI95zXvu",
+      "input": {
+        "nodeId": "ByEbDevV7v",
+        "pinKey": "ry-5PGXvO"
+      },
+      "output": {
+        "nodeId": "SJ7qqfXDO",
+        "pinKey": "__out__"
+      }
     }
   ],
   "nodes": [
@@ -287,7 +298,7 @@
       "label": "ADDR",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -355,6 +366,17 @@
         "y": 2
       },
       "type": "@/set-range"
+    },
+    {
+      "description": "I²C bus.",
+      "id": "SJ7qqfXDO",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
     }
   ]
 }

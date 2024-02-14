@@ -10,7 +10,7 @@
       "label": "ADDR",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -34,6 +34,17 @@
         "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "I²C bus.",
+      "id": "ry-5PGXvO",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
     }
   ]
 }

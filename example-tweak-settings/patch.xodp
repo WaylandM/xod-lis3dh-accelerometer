@@ -467,7 +467,7 @@
     },
     {
       "boundLiterals": {
-        "SykJ8wjXN": "01h"
+        "SykJ8wjXN": "00h"
       },
       "id": "SJ75n-HmP",
       "position": {
@@ -530,7 +530,7 @@
     },
     {
       "boundLiterals": {
-        "Skre8ROSv1-": "2"
+        "Skre8ROSv1-": "5"
       },
       "id": "SydY1frXP",
       "position": {
@@ -561,7 +561,7 @@
       "id": "SykW7vOMP",
       "position": {
         "units": "slots",
-        "x": 7,
+        "x": 6,
         "y": 2
       },
       "type": "@/lis3dh-device"
@@ -591,7 +591,7 @@
     },
     {
       "boundLiterals": {
-        "SykJ8wjXN": "08h"
+        "SykJ8wjXN": "07h"
       },
       "id": "rJnunbB7v",
       "position": {

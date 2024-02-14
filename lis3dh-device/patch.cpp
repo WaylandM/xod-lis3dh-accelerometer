@@ -27,9 +27,10 @@ void evaluate(Context ctx) {
 
     auto state = getState(ctx);
     auto address = getValue<input_ADDR>(ctx);
+    auto wire = getValue<input_I2C>(ctx);
 
     // Create a new object in the memory area reserved previously.
-    Type sensor = new (state->mem) Adafruit_LIS3DH();
+    Type sensor = new (state->mem) Adafruit_LIS3DH(wire);
 
     if (!sensor->begin(address)) {
       raiseError(ctx);
